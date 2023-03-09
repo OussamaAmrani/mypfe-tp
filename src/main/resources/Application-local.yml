@@ -1,0 +1,14 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /api
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password:
+
+logging :
+  level :
+    ma : DEBUG
